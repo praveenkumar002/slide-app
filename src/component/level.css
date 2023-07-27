@@ -1,0 +1,21 @@
+.levelDiv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.levelDiv img{
+    display: block;
+    filter: grayscale(100%);
+
+}
+.levelDiv {
+    cursor: pointer;
+    text-align: center;
+}
+.levelDiv button {
+    border: none;
+    background-color: white;
+}
